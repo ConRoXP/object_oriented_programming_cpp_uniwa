@@ -1,3 +1,17 @@
+/*
+Create a “UString” class which represents strings that
+consist exclusively of uppercase Latin characters ([A..Z]).
+The class will provide the following functionality:
+
+● Write a function that will accept two positive integers N and K,
+and will create and return a collection of N different UString objects
+each of which will consist of up to K characters.
+● Write a function that will print the strings of the
+previous collection to an ostream channel.
+
+The usage of vectors is not allowed.
+*/
+
 #include <iostream>
 using namespace std;
 
