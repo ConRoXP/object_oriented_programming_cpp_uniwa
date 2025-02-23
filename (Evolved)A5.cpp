@@ -1,6 +1,5 @@
 /*
-When I said that A5 was my favorite, I wasn't jocking.  
-I modified it to be an actual usable program instead of a demonstration of functions.  
+I modified A5 to be an actual usable program instead of a demonstration of functions.  
 The differences from the exam version are marked in comments.  
 */
 #include <iostream>
