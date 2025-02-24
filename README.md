@@ -6,7 +6,7 @@ A brief showcase of the curriculum:
 • Basics of C++, differences with C.  
 • Organization and compilation of C++ programs.  
 • Definition of new types. Abstraction in data.  
-• Classes I (build - destroy functions, copy construction, inline functions, overloading).  
+• Classes I (constructors - destructors. copy constructors, inline functions, overloading).  
 • Namespaces, Inheritance.  
 • Classes II (virtual and fully virtual functions, abstract classes).  
 • Function templates and class templates.  
