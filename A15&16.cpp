@@ -87,8 +87,8 @@ void MyVector<T>::remove(const int& index){
 
     //We allocate a smaller array by length-1
     vect= new T[newLength];
+    //For each element we check if it is the one that we want to remove
     for(int i=0; i< newLength; i++){
-        //For each element we check if it is the one that we want to remove
         if(i== index){
             for(int j=i; j< newLength; j++){
                 /*
