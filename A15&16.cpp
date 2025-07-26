@@ -89,11 +89,9 @@ void MyVector<T>::remove(const int& index){
     vect= new T[newLength];
     //For each element we check if it is the one that we want to remove
     for(int i=0; i< newLength; i++){
+    /*  If it is, we continue copying the rest of the elements
+        after skipping the one that we wanted to remove  */
         if(i== index){
-        /*
-            If it is, we continue copying the rest of the elements
-            after skipping the one that we wanted to remove
-        */
             for(int j=i; j< newLength; j++){
                 vect[j]= temp[j+1];
             }
