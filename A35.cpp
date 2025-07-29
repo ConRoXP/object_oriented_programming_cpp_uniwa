@@ -69,7 +69,7 @@ ostream &operator<<(ostream &os, const UString& obj){
 
     for(int r=0; r< n; r++){
         for(int c=0; c< k; c++){
-            //get.Ptr()[i][j] returns a pointer to array[i][j]
+            //array.getPtr()[i][j] returns a pointer to array[i][j]
             os<< (obj.getPtr()[r][c]);
         }
         cout<< endl;
