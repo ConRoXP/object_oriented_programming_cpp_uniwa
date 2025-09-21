@@ -13,9 +13,9 @@ For the implementation of the above you will not use the STL string class.
 */
 
 /*
-The correct way of solcing this would be with the use of std:vector.  
+The correct way of solving this would be with the use of std:vector.  
 However this was one of the first programms I wrote after coming over from C.  
-Dynamic memory allocation was still very fresh and I hadn't learned about vectors yet.  
+Dynamic memory allocation was still very fresh in my mind and I hadn't learned about vectors yet.  
 */
 
 #include <iostream>
@@ -146,4 +146,5 @@ int main(){
 
     return 0;
 }
+
 
