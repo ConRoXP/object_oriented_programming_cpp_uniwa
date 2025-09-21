@@ -12,18 +12,10 @@ Demonstrate the operation of the class via an appropriate main function.
 For the implementation of the above you will not use the STL string class.  
 */
 
-
 /*
-This the first challenging exercise I coded. The previous ones (A1 & A2) were an  
-introduction to some features C++ has over C.  
-
-As you can see, this code does indeed do what it is asked to do,  
-however it also turns the memory into a proper mess.  
-
-I was at the beginning of my C++ journey and I had not learnt `std::vector` yet but, coming straight from C,   
-I was comfortable with pointers and dynamic memory allocation. And that's exactly what I used.
-In fact, allocating an array of size 0 will be a repeat offense in other exercises too but at least I make sure to free it.  
-At the time I thought it was fine and I didn't have any other ways in mind.
+The correct way of solcing this would be with the use of std:vector.  
+However this was one of the first programms I wrote after coming over from C.  
+Dynamic memory allocation was still very fresh and I hadn't learned about vectors yet.  
 */
 
 #include <iostream>
@@ -154,3 +146,4 @@ int main(){
 
     return 0;
 }
+
